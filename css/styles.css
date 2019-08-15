@@ -2,11 +2,24 @@
   text-align: center;
   color: lightblue;
 }
-.sandwich-content  {
+.sandwich-content {
   font-family: sans-serif;
   color: lightgreen;
 }
+.sandwich-content img {
+  height: 200px;
+}
 .about-me  {
   font-family: monospace;
+  color: black;
+}
+.slogan {
+  font-style: italic;
+  font-size: 20px;
   color: red;
+}
+.about-me img {
+  margin-right: 10px;
+  float: left;
+  height: 100px;
 }
