@@ -1,0 +1,12 @@
+.header {
+  text-align: center;
+  color: lightblue;
+}
+.sandwich-content  {
+  font-family: sans-serif;
+  color: lightgreen;
+}
+.about-me  {
+  font-family: monospace;
+  color: red;
+}
