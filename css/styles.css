@@ -2,16 +2,30 @@
   text-align: center;
   color: lightblue;
 }
-.sandwich-content {
+
+.sandwich-grid {
   font-family: sans-serif;
   color: lightgreen;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 55% 40%;
+  grid-column-gap: 10px;
+  grid-row-gap: 5%;
+  padding: 10px;
+  font-size: 90%;
 }
-.sandwich-content img {
-  height: 200px;
+.sandwich-grid div {
+  padding: 20px 0;
+  font-size: inherit;
+}
+.sandwich-grid img{
+  height: 50%;
+  width: 100%;
 }
 .about-me  {
   font-family: monospace;
   color: black;
+
 }
 .slogan {
   font-style: italic;
@@ -20,6 +34,6 @@
 }
 .about-me img {
   margin-right: 10px;
-  float: left;
   height: 100px;
+  float: left;
 }
